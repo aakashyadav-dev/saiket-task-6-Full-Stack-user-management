@@ -1,4 +1,4 @@
-cat > README.md << 'EOF'
+
 # 🚀 Full Stack User Management System
 
 A production-ready full-stack user management application built with **React** frontend, **Node.js/Express** backend, and **MySQL** database. This project demonstrates professional full-stack development with complete CRUD operations, modern UI, and seamless API integration.
@@ -256,7 +256,8 @@ json
   ],
   "timestamp": "2026-07-27T10:30:00.000Z"
 }
-🎨 Features
+```
+## 🎨 Features
 ✅ Backend Features
 Complete CRUD operations
 
@@ -277,7 +278,7 @@ Seed script for sample data
 Security middleware (Helmet, CORS)
 
 Request logging (Morgan)
-```
+
 
 # ✅ Frontend Features
 Modern dashboard with statistics
@@ -316,6 +317,7 @@ Date formatting
 API connection status
 
 # 📊 Database Schema
+```
 sql
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -329,7 +331,7 @@ CREATE TABLE users (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 🧪 Testing
 Test Backend API
-bash
+```
 # Health check
 curl http://localhost:5000/api/health
 
