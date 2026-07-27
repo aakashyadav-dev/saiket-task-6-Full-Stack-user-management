@@ -24,6 +24,7 @@ The application provides a complete user management system where administrators 
 ---
 
 ## 🏗️ Architecture
+```
 ┌─────────────────────────────────────────────────────────────┐
 │ React Frontend (Vite) │
 │ ┌─────────────┐ ┌─────────────┐ ┌─────────────────────┐ │
@@ -50,12 +51,13 @@ The application provides a complete user management system where administrators 
 │ │ users (id, name, email, age, created_at, updated_at) ││
 │ └─────────────────────────────────────────────────────────┘│
 └─────────────────────────────────────────────────────────────┘
+```
 
-text
 
 ---
 
 ## 📁 Folder Structure
+```
 full-stack-user-management/
 │
 ├── backend/ # Task 5 Backend (Node.js + Express + MySQL)
@@ -106,8 +108,8 @@ full-stack-user-management/
 │
 └── public/ # Static assets
 └── vite.svg # Vite logo
+```
 
-text
 
 ---
 
@@ -275,8 +277,9 @@ Seed script for sample data
 Security middleware (Helmet, CORS)
 
 Request logging (Morgan)
+```
 
-✅ Frontend Features
+# ✅ Frontend Features
 Modern dashboard with statistics
 
 Add user form with real-time validation
@@ -299,7 +302,7 @@ Loading states
 
 Error handling
 
-✅ Bonus Features
+# ✅ Bonus Features
 Dark theme
 
 Statistics cards (Total Users, Average Age, Newest User)
@@ -312,7 +315,7 @@ Date formatting
 
 API connection status
 
-📊 Database Schema
+# 📊 Database Schema
 sql
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -350,16 +353,13 @@ Use the search bar to filter users
 
 📸 Screenshots
 Dashboard
-https://screenshots/dashboard.png
+<img width="1431" height="805" alt="Dashboard" src="https://github.com/user-attachments/assets/3256635f-e654-44fc-8a39-4fafb746d238" />
+
 
 Add User Form
-https://screenshots/add-user.png
+<img width="1409" height="636" alt=" users form" src="https://github.com/user-attachments/assets/e9cf4c72-6408-4fdb-9b70-bedac5929398" />
 
-User Table
-https://screenshots/user-table.png
 
-Delete Confirmation
-https://screenshots/delete-modal.png
 
 🔧 Environment Variables
 Backend .env
@@ -517,7 +517,8 @@ npm run dev
 cd frontend
 npm install
 npm run dev
-Features
+```
+# Features
 ✅ View, Add, Edit, Delete Users
 
 ✅ Search Users
@@ -528,7 +529,7 @@ Features
 
 ✅ Dark Theme
 
-Tech Stack
+# Tech Stack
 Frontend: React, Vite, Tailwind CSS
 
 Backend: Node.js, Express, MySQL
@@ -544,15 +545,13 @@ PUT /api/v1/users/:id - Update user
 
 DELETE /api/v1/users/:id - Delete user
 
-Author
+# Author
 Aakash Yadav
 EOF
 
-text
 
----
 
-## ✅ README Checklist
+# ✅ README Checklist
 
 - [x] Project overview
 - [x] Architecture diagram
@@ -573,10 +572,3 @@ text
 - [x] Changelog
 
 ---
-
-## 📸 Create Screenshots Directory
-
-```bash
-mkdir -p screenshots
-
-# Add placeholder for screenshots
